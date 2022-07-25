@@ -26,4 +26,13 @@ http://localhost:8089
 ![Load and Stress Test Setup](/assets/images/locust-setup-load-test.png)
 
 
+```
+   Number of Users = Concurrent users (Number of Threads)
+   Spawn rate = Number of users to start every second util it fulfils the total number of users to simulate
+```
+
+# Load Test Summary
+
+![Load Test Summary](/assets/images/locust-setup-load-test.png)
+
 
