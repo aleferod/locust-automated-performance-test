@@ -36,3 +36,4 @@ http://localhost:8089
 ![Load Test Summary](/assets/images/locust-load-test-summary.png)
 
 
+See more in https://docs.locust.io/en/stable/
