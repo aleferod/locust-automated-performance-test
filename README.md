@@ -21,9 +21,9 @@ $ docker-compose up -d
 
 http://localhost:8089 
 
-# Load and Stress Test setup
+# Load Test setup
 
-![Load and Stress Test Setup](/assets/images/locust-setup-load-test.png)
+![Load Test Setup](/assets/images/locust-setup-load-test.png)
 
 
 ```
