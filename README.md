@@ -7,7 +7,7 @@ Automated performance test using Locust (https://locust.io/), Python and Docker
 Configure the host in **docker-compose.yml**
 
 ```
-    command: -f /mnt/locust/locustfile.py --master -H **{host_to_test}**
+    command: -f /mnt/locust/locustfile.py --master -H {host_to_test}
 ```
 Create the http requests to load and stress test using python in **locustfile.py** file
 
