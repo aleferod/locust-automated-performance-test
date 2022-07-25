@@ -33,6 +33,6 @@ http://localhost:8089
 
 # Load Test Summary
 
-![Load Test Summary](/assets/images/locust-setup-load-test.png)
+![Load Test Summary](/assets/images/locust-load-test-summary.png)
 
 
