@@ -7,12 +7,10 @@ services:
      - "8089:8089"
     volumes:
       - ./:/mnt/locust
-    command: -f /mnt/locust/locustfile.py --master -H http://172.17.0.1:4566
+    command: -f /mnt/locust/locustfile.py --master -H https://google.com
   
   worker:
     image: locustio/locust
     volumes:
       - ./:/mnt/locust
-    environment:
-      - API_GATEWAY_ID=bn6z4q3kcg
     command: -f /mnt/locust/locustfile.py --worker --master-host master  
